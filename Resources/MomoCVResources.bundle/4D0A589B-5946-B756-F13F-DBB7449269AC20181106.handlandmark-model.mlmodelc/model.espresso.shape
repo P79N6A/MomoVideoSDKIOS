@@ -1,0 +1,466 @@
+{
+  "layer_shapes" : {
+    "before_add" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/3\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "main\/layer_combine2" : {
+      "k" : 88,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/0\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage2_0\/sum" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage3_0\/sum" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "stage1_0\/sum" : {
+      "k" : 32,
+      "w" : 40,
+      "n" : 1,
+      "h" : 40
+    },
+    "feature_stage2\/2nd\/0\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage2_1\/conv1" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage1_0\/conv1" : {
+      "k" : 32,
+      "w" : 40,
+      "n" : 1,
+      "h" : 40
+    },
+    "stage2_1\/conv2" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage1_0\/conv2" : {
+      "k" : 32,
+      "w" : 40,
+      "n" : 1,
+      "h" : 40
+    },
+    "stage3_2\/conv2" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "stage3_2\/conv1" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "upsampling" : {
+      "k" : 52,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/1\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage2\/2nd\/1\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "Eltwise1" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/4\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/2\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage2\/2nd\/2\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4_regression\/2nd\/final" : {
+      "k" : 22,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "box_dpconv1\/dw" : {
+      "k" : 44,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "box_dpconv2\/pw" : {
+      "k" : 16,
+      "w" : 5,
+      "n" : 1,
+      "h" : 5
+    },
+    "feature_stage3\/2nd\/0\/dw" : {
+      "k" : 88,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/3\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage2\/2nd\/3\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/0\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/1\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/4\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage2\/2nd\/4\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "main\/layer_combine3" : {
+      "k" : 88,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage1\/downsample" : {
+      "k" : 32,
+      "w" : 40,
+      "n" : 1,
+      "h" : 40
+    },
+    "feature_stage4\/2nd\/1\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/2\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/2\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/3\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/3\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "conv0" : {
+      "k" : 24,
+      "w" : 80,
+      "n" : 1,
+      "h" : 80
+    },
+    "feature_stage1\/2nd\/0\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/4\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/4\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/1\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "box_fc" : {
+      "k" : 4,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "box_dpconv2\/dw" : {
+      "k" : 32,
+      "w" : 5,
+      "n" : 1,
+      "h" : 5
+    },
+    "stage2\/downsample" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/2\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "data" : {
+      "k" : 3,
+      "w" : 160,
+      "n" : 1,
+      "h" : 160
+    },
+    "feature_stage2\/2nd\/0\/dw" : {
+      "k" : 88,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/0\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/3\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage3_0\/conv1" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "stage3_0\/conv2" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "feature_stage2\/2nd\/1\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/1\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage1\/2nd\/4\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "box_dpconv1\/pw" : {
+      "k" : 32,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "box_avg" : {
+      "k" : 16,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "feature_stage2\/2nd\/2\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "main\/layer_combine1" : {
+      "k" : 88,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/2\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4_regression\/2nd\/final_240feature_stage4_regression2nd\/sigmoid" : {
+      "k" : 22,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage3\/downsample" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "feature_stage4\/2nd\/0\/dw" : {
+      "k" : 88,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage2\/2nd\/3\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/3\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage3_2\/sum" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "stage2_0\/conv1" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage4\/2nd\/1\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage2_0\/conv2" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage3_1\/conv1" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "stage3_1\/conv2" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "feature_stage2\/2nd\/4\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "feature_stage3\/2nd\/4\/pw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage2_1\/sum" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    },
+    "stage3_1\/sum" : {
+      "k" : 52,
+      "w" : 10,
+      "n" : 1,
+      "h" : 10
+    },
+    "feature_stage4\/2nd\/2\/dw" : {
+      "k" : 44,
+      "w" : 20,
+      "n" : 1,
+      "h" : 20
+    }
+  }
+}
